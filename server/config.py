@@ -1,0 +1,20 @@
+# 数据协议相关配置
+
+REQUEST_LOGIN = '0001'
+REQUEST_CHAT = '0002'
+RESPONSE_LOGIN_RESULT = '1001'
+RESPONSE_CHAT = '1002'
+DELIMITER = '|'  # 自定义协议数据分割符
+
+# 服务器ip和端口
+
+SERVER_IP = '127.0.0.1'
+SERVER_PORT = 10095
+
+# 数据库相关信息
+
+DB_HOST = '127.0.0.1'
+DB_PORT = 3306
+DB_DATABASE = 'mini_chat'
+DB_USER = 'root'
+DB_PASSWORD = '123456'
